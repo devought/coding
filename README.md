@@ -24,8 +24,7 @@ My VSCode Extensions:
 - Rainbow CSV
 - Tailwind CSS
 - Template String Converter
-- August
 - SVG Preview
 - SCSS Intellisense
-- Code Spell Checker
 - Nginx Configuration
+- Remote SSH
