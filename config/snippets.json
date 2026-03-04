@@ -39,6 +39,12 @@
 	},
 	"Leetcode": {
 		"prefix": "lc",
-		"body": ["class Solution {", "    $1($2) {", "        $0", "    }", "}"]
+		"body": [
+			"export class Solution {",
+			"    $1($2) {",
+			"        $0",
+			"    }",
+			"}"
+		]
 	}
 }
