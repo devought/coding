@@ -50,7 +50,8 @@ export {
 	hasDuplicates,
 	swap,
 	subsets,
-	bubbleSort
+	bubbleSort,
+	quickSort
 } from './algorithms/array'
 
 export { Vector } from './data-structures/vector'

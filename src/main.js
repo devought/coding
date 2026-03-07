@@ -1,1 +1,45 @@
-"use strict";var __defProp=Object.defineProperty;var __getOwnPropDesc=Object.getOwnPropertyDescriptor;var __getOwnPropNames=Object.getOwnPropertyNames;var __hasOwnProp=Object.prototype.hasOwnProperty;var __export=(target,all)=>{for(var name in all)__defProp(target,name,{get:all[name],enumerable:!0})},__copyProps=(to,from,except,desc)=>{if(from&&typeof from=="object"||typeof from=="function")for(let key of __getOwnPropNames(from))!__hasOwnProp.call(to,key)&&key!==except&&__defProp(to,key,{get:()=>from[key],enumerable:!(desc=__getOwnPropDesc(from,key))||desc.enumerable});return to};var __toCommonJS=mod=>__copyProps(__defProp({},"__esModule",{value:!0}),mod);var main_exports={};__export(main_exports,{Solution:()=>Solution});module.exports=__toCommonJS(main_exports);var Solution=class{lengthOfLongestSubstring(s){let length=0,set=new Set,left=0;for(let right=0;right<s.length;right++){for(;set.has(s[right]);)set.delete(s[left]),left++;length=Math.max(length,right-left+1),set.add(s[right])}return length}};new Solution().lengthOfLongestSubstring("abcdab");0&&(module.exports={Solution});
+'use strict'
+var __defProp = Object.defineProperty
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor
+var __getOwnPropNames = Object.getOwnPropertyNames
+var __hasOwnProp = Object.prototype.hasOwnProperty
+var __export = (target, all) => {
+		for (var name in all)
+			__defProp(target, name, { get: all[name], enumerable: !0 })
+	},
+	__copyProps = (to, from, except, desc) => {
+		if ((from && typeof from == 'object') || typeof from == 'function')
+			for (let key of __getOwnPropNames(from))
+				!__hasOwnProp.call(to, key) &&
+					key !== except &&
+					__defProp(to, key, {
+						get: () => from[key],
+						enumerable:
+							!(desc = __getOwnPropDesc(from, key)) ||
+							desc.enumerable
+					})
+		return to
+	}
+var __toCommonJS = (mod) =>
+	__copyProps(__defProp({}, '__esModule', { value: !0 }), mod)
+var main_exports = {}
+__export(main_exports, { Solution: () => Solution })
+module.exports = __toCommonJS(main_exports)
+var Solution = class {
+	minEatingSpeed(piles, hours) {
+		let optimalSpeed = Math.max(...piles),
+			minSpeed = 1,
+			maxSpeed = optimalSpeed
+		for (; minSpeed <= maxSpeed; ) {
+			let avgSpeed = (minSpeed + maxSpeed) >> 1,
+				time = 0
+			for (let pile of piles) time += Math.ceil(pile / avgSpeed)
+			time <= hours
+				? ((optimalSpeed = Math.min(optimalSpeed, avgSpeed)),
+					(maxSpeed = avgSpeed - 1))
+				: (minSpeed = avgSpeed + 1)
+		}
+		return optimalSpeed
+	}
+}
+0 && (module.exports = { Solution })
