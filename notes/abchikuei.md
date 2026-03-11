@@ -4,40 +4,73 @@ Languages:
 - Russian
 - English
 - Arabic
+- Spanish
+- Mandarin
 
 Laptop Applications:
 
 - VSCode
 - Insomnia
 - Docker
-- ChatGPT
+- Claude
 - Chrome
 - Telegram
 - Raycast
-- NordVPN
+- NordVpn
 - Slack
+- Github
+- TablePlus
 - Ghostty
+- Discord
+- Perplexity
+- Notion
 
 Phone Applications:
 
 - Telegram
 - Chrome
-- ChatGPT
+- Claude
 - Phantom
-- NordVPN
+- NordVpn
 - Slack
 - Yandex Go
+- Yandex Eda
+- InDrive
+- Uber
+- Glovo
+- Github
+- Freedom
+- Kaspi
+- Halyk
+- Otbasy
+- YouTube
+- Uber
+- Paypal
+- Google 2FA
+- Perplexity
+- WhatsApp
+- Twitter
+- Instagram
+- LinkedIn
+- Gemini
+- Deezer
+- Reddit
 - IZI
 
 Subscriptions:
 
-- ChatGPT
+- Claude
 - YouTube
 - Telegram
 - Google Drive
-- NordVPN
+- NordVpn
 - Neetcode
 - Raycast
+- Gemini
+- Perplexity
+- Notion
+- Deezer
+- Reddit
 
 Gadgets:
 
@@ -46,19 +79,16 @@ Gadgets:
 - Iphone Pro
 - Airpods Pro
 - Airpods Max
+- Apple Watch
 - Baseus Powerbank
 - Mac Studio
 - Ipad Pro
 - Dell 24
 - Logitech MX Master
-- Keychron Keyboard
 - Secret Lab Setup
-
-Career:
-
-- Frontend Developer
-- Competitive Programming
-- NodeJS Backend Developer
+- Incharge X
+- Fast Ethernet
+- Clevetura 1
 
 Projects:
 
@@ -67,12 +97,25 @@ Projects:
 - Hackerrank SQL Marathon
 - Telegram Bot
 - UI Library
-- AI Trader
 - Electron App
 - React Native App
 - Fullstack Web App
-- My Knowledge Library
+- Portfolio
+
+Bag:
+
+- Charged powerbank
+- Painkillers
+- Stomache pills
+- Headache pills
+- Wet napkins
+- Dry napkins
+- Parfume
+- Glasses
+- Cash
+- Gum
 
 mail: `abchikuei@domain.com`
 username: `abchikuei`
-nickname: `Kurban Eldos`
+nickname: `eldus`
+phone: `87067389174`

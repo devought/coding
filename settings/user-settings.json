@@ -42,7 +42,11 @@
 	},
 	"[yaml]": {
 		"editor.tabSize": 4,
-		"editor.guides.indentation": false,
+		"editor.guides.bracketPairs": false,
+		"editor.guides.bracketPairsHorizontal": false
+	},
+	"[dockercompose]": {
+		"editor.tabSize": 4,
 		"editor.guides.bracketPairs": false,
 		"editor.guides.bracketPairsHorizontal": false
 	},
