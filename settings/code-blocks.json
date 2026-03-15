@@ -73,7 +73,7 @@
 	"Math.ceil": {
 		"scope": "typescript,javascript,typescriptreact,javascriptreact,vue",
 		"prefix": "cel",
-		"body": "Math.floor($1)"
+		"body": "Math.ceil($1)"
 	},
 	"Convert to Number": {
 		"scope": "typescript,javascript,typescriptreact,javascriptreact",
@@ -89,5 +89,10 @@
 		"scope": "typescript,javascript,typescriptreact,javascriptreact",
 		"prefix": "cb",
 		"body": "Boolean($1)"
+	},
+	"Mod Operation": {
+		"scope": "typescript,javascript,typescriptreact,javascriptreact",
+		"prefix": "mod",
+		"body": "$1 % $2"
 	}
 }

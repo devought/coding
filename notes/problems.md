@@ -1,30 +1,3 @@
-- Rules:
-    - Do not solve version 2 or 3 if you have not solved version 1 first
-    - Look at constraints first — they hint at the expected complexity
-        - n <= 10^4 → O(n log n) or O(n) is fine
-        - n <= 10^3 → O(n^2) is acceptable
-        - n <= 20 → O(2^n) or O(n!) is fine (backtracking, permutations)
-    - Simplify the problem statement in your own words before coding
-    - Identify the pattern before jumping to code
-        - sliding window, two pointers, hash map, binary search, etc.
-    - Start with brute force mentally, then optimize
-    - Check edge cases before submitting
-        - empty input, single element, all duplicates, negative numbers
-    - After solving, always check other solutions and note:
-        - what pattern they used
-        - what you missed
-        - cleaner ways to express the same logic
-    - If stuck for more than 15-20 min, look at hints not the solution
-    - Document every solution with your format (problem, constraints, algorithm)
-- Codestyle:
-    - Avoid multiple returns except guard clauses at the top
-    - Always specify `public`, `private`, `protected` in classes
-    - Prefer declarative methods (map, filter, reduce) over manual loops where readable
-    - Give meaningful names — avoid single letters except `i`, `j` in loops
-    - Omit curly braces in single-line if/else blocks
-    - Extract repeated logic into helper functions
-    - Keep functions focused on one responsibility
-
 - [Score of a String](https://leetcode.com/problems/score-of-a-string/description/):
     - Given an string `s` and goal is calculate the score. The score of a string is defined as the sum of the absolute difference between the ASCII values of adjacent characters.
 
@@ -865,7 +838,7 @@ export const convertToTitle = function (int: number) {
     - `n == nums.length`
     - `1 <= n <= 5 * 10^4`
     - `-10^9 <= nums[i] <= 10^9`
-    - Majority element всегда существует (гарантировано условием)
+    - It's guaranteed Majority element exists
 
 - Algorithm (Boyer-Moore Voting):
     - Идея — majority element встречается больше n/2 раз, значит он "переживёт" все остальные элементы
@@ -898,11 +871,172 @@ const majorityElement = function (ints: number[]) {
 		else count--
 
 		if (count == 0) {
-			candidate = int // кандидат уничтожен, берём следующий
+			candidate = int
 			count = 1
 		}
 	}
 
-	return candidate // majority element не может быть уничтожен
+	return candidate
+}
+```
+
+----------------------------------------- Divider -----------------------------------------
+
+- [Design HashSet](https://leetcode.com/problems/design-hashset/description/)
+
+- Constraints:
+    - `0 <= key <= 10^6`
+    - At most `10^4` calls will be made to `add`, `remove`, and `contains`
+
+- Data Structure:
+    - Array of Linked Lists (separate chaining)
+    - Array size = 10_000 buckets
+    - Each bucket is a dummy head ListNode (sentinel node)
+    - `key % size` maps any key to a bucket index (0–9999)
+
+- Why Linked List per bucket?
+    - Multiple keys can hash to the same bucket (collision)
+    - Linked list handles collisions naturally — just append to the chain
+    - Deletion is O(1) once you find the previous node — just rewire pointers
+    - No shifting elements like in arrays
+
+- Why dummy head (sentinel node)?
+    - Avoids edge case of deleting/checking the first node
+    - `head` always exists, we always start traversal from `head.next`
+    - Makes all operations uniform — no special case for empty bucket
+
+- Operations:
+    - `add(key)` — traverse bucket, append if key not found
+    - `remove(key)` — traverse bucket, rewire pointers to skip the node
+    - `contains(key)` — traverse bucket, return true if key found
+
+- Complexity:
+    - Time: O(n/k) average — n keys spread across k=10_000 buckets
+    - Space: O(k + n) — k buckets + n stored keys
+
+```typescript
+import { ListNode } from './lib'
+
+export class MyHashSet {
+	private array: Array<ListNode>
+	private readonly size = 10_000
+
+	public constructor() {
+		// each bucket starts with a dummy head (sentinel)
+		// so head.next is always the first real node
+		this.array = Array.from({ length: this.size }, () => new ListNode())
+	}
+
+	public add(key: number) {
+		const hash = key % this.size
+		let head = this.array[hash] // start at dummy head
+
+		while (head.next) {
+			if (head.next.val == key) return // key already exists, skip
+			head = head.next
+		}
+
+		head.next = new ListNode(key) // append at the end
+	}
+
+	public remove(key: number) {
+		const hash = key % this.size
+		let head = this.array[hash] // start at dummy head
+
+		while (head.next) {
+			if (head.next.val == key) {
+				head.next = head.next.next // rewire: skip the target node
+				return
+			}
+			head = head.next
+		}
+	}
+
+	public contains(key: number) {
+		const hash = key % this.size
+		let head = this.array[hash] // start at dummy head
+
+		while (head.next) {
+			if (head.next.val == key) return true
+			head = head.next
+		}
+
+		return false
+	}
+}
+```
+
+----------------------------------------- Divider -----------------------------------------
+
+- [Design HashMap](https://leetcode.com/problems/design-hashmap/description/)
+
+- Constraints:
+    - `0 <= key, value <= 10^6`
+    - At most 10^4 calls will be made to `put`, `get`, and `remove`.
+
+- Algorith:
+    - I did create a modified Linked List with additional field `key`
+    - Use Array and Linked List to solve the collision problem
+
+```typescript
+class ListNode {
+	public key: number
+	public value: number
+	public next: ListNode | null
+
+	public constructor(key?: number, value?: number, next?: ListNode) {
+		this.key = key === undefined ? 0 : key
+		this.value = value === undefined ? 0 : value
+		this.next = next === undefined ? null : next
+	}
+}
+
+export class MyHashMap {
+	private array: ListNode[]
+	private readonly size = 1000
+
+	public constructor() {
+		this.array = Array.from({ length: this.size }, () => new ListNode())
+	}
+
+	public put(key: number, value: number) {
+		const hash = key % this.size
+
+		let head = this.array[hash]
+		while (head.next) {
+			if (head.next.key == key) {
+				head.next.value = value
+				return
+			}
+			head = head.next
+		}
+		head.next = new ListNode(key, value)
+	}
+
+	public get(key: number) {
+		const hash = key % this.size
+
+		let head = this.array[hash]
+		while (head.next) {
+			if (head.next.key == key) {
+				return head.next.value
+			}
+			head = head.next
+		}
+		return -1
+	}
+
+	public remove(key: number) {
+		const hash = key % this.size
+
+		let head = this.array[hash]
+		while (head.next) {
+			if (head.next.key == key) {
+				head.next = head.next.next ?? null
+				return
+			}
+			head = head.next
+		}
+	}
 }
 ```

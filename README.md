@@ -24,10 +24,64 @@ Additional:
 - Remote SSH
 - Terraform
 - GraphQL
-- Code Spell Checker
 - React Native Tools
-- Thunder Client
-- Redis for VSCode
-- MongoDB for VSCode
 - Live Server
 - Live Share
+
+Development Tools:
+
+- brew
+- node
+- npm
+- yarn
+- pnpm
+- bun
+- tsc
+- tsx
+- git
+- docker
+- kubectl
+- minikube
+- aws
+- gh
+- railway
+- vercel
+- nvm
+- fnm
+- pm2
+
+CLI:
+
+- yazi
+- bat
+- fzf
+- tmux
+
+Protocols and Linux Tools:
+
+- ssh
+- nginx
+- bitnami
+- curl
+- nmap
+- chmod
+- chown
+- apache
+- sudo
+- apt
+- wget
+- ping
+- telnet
+- traceroute
+- netstat
+- nslookup
+- ifconfig
+- ipconfig
+- whois
+- whoami
+- netcat
+- rsync
+- lsof
+- tcpdump
+- ngrok
+- scp

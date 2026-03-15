@@ -1,83 +1,65 @@
-Languages:
+### Programming Languages:
+
+- TypeScript
+- JavaScript
+
+### Languages:
 
 - Kazakh
 - Russian
 - English
 - Arabic
 
-Laptop Applications:
+### Laptop Applications:
 
 - VSCode
 - Insomnia
 - Docker
 - Chrome
 - Telegram
-- Raycast
 - NordVpn
+- Raycast
 - Slack
-- TablePlus
 - Ghostty
 - Discord
 - Whispr Flow
-- Perplexity
 
-Phone Applications:
+### Phone Applications:
 
 - Telegram
 - Chrome
 - Claude
 - Phantom
-- NordVpn
 - Slack
 - Yandex Go
+- NordVpn
 - Yandex Eda
-- InDrive
-- Glovo
-- Github
 - Freedom
 - Kaspi
 - Halyk
 - Otbasy
-- YouTube
 - Paypal
 - Onay
-- Google 2FA
-- Perplexity
 - LinkedIn
-- NotebookLM
 - Whispr Flow
-- Reddit
+- Authy
 - IZI
 
-Subscriptions:
+### Subscriptions:
 
 - Claude
-- YouTube
+- Youtube
 - Telegram
-- Google Drive
-- NordVpn
-- Neetcode
 - Raycast
-- Perplexity
-- NotebookLM
-- Lovable
-- Figma
-- Pencil
-- Supabase
-- Vercel
-- Netlify
-- Dokploy
-- GreatFrontEnd
-- Amazon Web Services
-- Google Cloud Platform
-- Microsoft Azure
+- NordVpn
+- Google Drive
 - Whispr Flow
 - Puzzle Movies
 
-Gadgets:
+### Gadgets:
 
 - Macbook Pro 14
-- Macbook Air
+- Macbook Neo
 - Iphone Pro
 - Airpods Pro
 - Airpods Max
@@ -89,14 +71,11 @@ Gadgets:
 - Dell Monitor
 - Logitech MX Master
 - Keychron Keyboard
-- Secret Lab Setup
-- Gaming Setup
-- Incharge X
-- Yandex Alice
+- InCharge X
 - Onyx Book
-- Fast Router
+- Fast Internet
 
-Bag:
+### Bag:
 
 - Powerbank
 - Painkillers
@@ -114,52 +93,7 @@ Bag:
 - Water
 - Cash
 
-PC Applications:
-
-- Steam
-- Epic Games
-- Rockstar Launcher
-- Ubisoft Connect
-- Whispr Flow
-- EA Games
-- Discord
-- Telegram
-- Chrome
-- Claude
-- Docker
-- NordVpn
-- Powertoys
-- VSCode
-- Aimp
-
-Games:
-
-- Stalker
-- Metro
-- Grand Theft Auto
-- Plants vs Zombies
-- Resident Evil
-- Call Of Duty
-- Assasin's Creed
-- Red Dead Redemption
-- Dark Souls
-- Elden Ring
-- Prince of Persia
-- Will Rock
-- Outlast
-- Flat Out
-- God of War
-- Max Payne
-- The Last of Us
-- Far Cry
-- Left 4 Dead
-- Mafia
-- Battlefield
-- Medal of Honor
-- Poppy Playtime
-- Rusty Lake
-
-Hobby:
+### Hobby:
 
 - Quiz
 - Rubick's Cube
@@ -169,11 +103,92 @@ Hobby:
 - Coin Collection
 - Banknote Collection
 - Book Collection
+- Crypto Collection
+- Stock Collection
 
-Resources:
+### Resources:
 
 - [CP Handbook](https://cses.fi/book/book.pdf)
-- [LearnJS] (https://learn.javascript.ru/)
+- [LearnJS](https://learn.javascript.ru/)
 - [CP Algorithms](https://cp-algorithms.com/index.html)
 - [Web Development](https://my-js.org/docs/guide/intro-guide)
 - [Frontend Handbook](https://www.frontendinterviewhandbook.com/ru/introduction)
+- [NodeJS](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
+
+### Learns:
+
+#### Mathematics (foundation)
+
+- Discrete Math
+- Boolean Algebra
+- Linear Algebra
+- Calculus
+- Geometry
+- Probability and Statistics
+- Combinatorics
+- Number Theory ← криптография, хэши, RSA
+- Graph Theory ← алгоритмы, базы данных, сети
+- Information Theory ← сжатие, энтропия, Shannon
+
+#### Computer Science
+
+- Algorithms and Data Structures
+- Computer Science (general)
+- Operating Systems
+- Network Essentials
+- Compilers and Interpreters ← твои under the hood проекты
+- Database Internals ← как работает Postgres изнутри
+- Distributed Systems ← CAP теорема, consensus, replication
+- Computer Architecture ← CPU, память, кэши, pipeline
+- Cryptography ← как работает TLS, hashing, encryption
+
+#### Software Engineering
+
+- Software Engineering
+- Web Development
+- System Design ← как проектировать большие системы
+- Design Patterns ← GOF паттерны
+- Clean Code / Refactoring ← Мартин Фаулер, Роберт Мартин
+- Browser Engine ← V8, Бандлер
+- Asynchronous programming
+- Event Driven Architecture
+
+#### Physics & Natural Science
+
+- Physics (mechanics, electromagnetism) ← понять железо
+- Electronics Basics ← как работает CPU на уровне схем
+
+#### Erudition
+
+- World History
+- Geography
+- Philosophy (logic, epistemology) ← как правильно думать
+- Economics (micro + macro) ← понять бизнес и продукт
+- Psychology ← понять людей, UX, мотивация
+- Rhetoric and Logic ← как аргументировать и писать
+- Biology (basics) ← понять как устроена жизнь
+
+### Youtube Channels:
+
+- Dreamwave
+- ikigai
+- Sambucha
+- Kuplinov Play
+- Rozetked
+- Victorovich
+- Neetcode
+- Errichto Algorithms
+- 3Blue1Brown
+- The Organic Chemistry Tutor
+- Outdoor Boys
+- TrevTutor
+- BradyYourTutor
+- Veritasium
+- Techdose
+
+### CP Platforms:
+
+- Leetcode
+- Codeforces
+- Hackerrank
+- Atcoder
