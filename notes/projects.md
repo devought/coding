@@ -7,7 +7,6 @@
 - [ ] React Native app to train and refresh knowledge
 - [ ] Online crypto trading system powered with AI
 - [ ] Blazingly fast full stack web site
-- [ ] Ugly UX components
 - [ ] Portfolio 3D
 
 ### Under The Hood (JS/Web Engineering)

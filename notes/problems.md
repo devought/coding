@@ -212,11 +212,11 @@ const canPlaceFlowers = function (ints: number[], n: number) {
     - In the second pass, indices that still hold positive values were never visited → their `index + 1` is a missing number
 
 ```typescript
-const findDisappearedNumbers = function (ints: number[]) {
-	const array = [] as number[]
+export const findDisappearedNumbers = function (ints: number[]) {
+	const array: number[] = []
 
-	for (let i = 0; i < ints.length; i++) {
-		const index = Math.abs(ints[i]) - 1
+	for (const int of ints) {
+		const index = Math.abs(int) - 1
 		if (ints[index] > 0) ints[index] *= -1
 	}
 
@@ -226,6 +226,22 @@ const findDisappearedNumbers = function (ints: number[]) {
 
 	return array
 }
+
+console.log(findDisappearedNumbers([4, 3, 2, 7, 8, 2, 3, 1]))
+
+/* 
+1. Так как числа находятся в диапазоне [1, n] мы можем использовать их как индексы
+2. Мы пометим почти все элементы на которых могут указать другие элементы
+3. У нас положительными окажутся те элементы на которых указывают пропавшие элементы:
+    - Вот в массиве [4, 3, 2, 7, 8, 2, 3, 1] у нас после цикла получается [-4, -3, -2, -7, 8, 2, -3, -1]
+    - Потому что на 8 и 2 указывают элементы 5 и 6 а их мы как раз ищем
+    - Добраться до 5 и 6 мы можем как раз используя индексы этих 8 и 2
+    - 8 стоит на i = 4 а 2 стоит на i = 5, плюс 1 к индексам и ты получаешь ответ
+
+
+Чтобы это использовать все элементы должны быть в диапазоне [1, n]
+
+*/
 ```
 
 ----------------------------------------- Divider -----------------------------------------
@@ -1142,3 +1158,143 @@ export const sortArray = function (ints: number[]) {
 	return ints
 }
 ```
+
+----------------------------------------- Divider -----------------------------------------
+
+# [Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/description)
+
+## Описание задачи# [Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/description)
+
+## Описание задачи
+
+Дается массив чисел `ints` и целое число `n`. У нас есть пустой стек и поток чисел от `1` до `n` включительно. Задача — вернуть список операций `"Push"` / `"Pop"`, которые соберут стек равный `ints`.
+
+- `Push` — берём следующее число из потока и кладём в стек
+- `Pop` — убираем верхний элемент стека (число нам не нужно)
+
+## Ограничения
+
+- `1 <= ints.length <= 100`
+- `1 <= n <= 100`
+- `1 <= ints[i] <= n`
+- `ints` строго возрастающий
+
+## Примеры
+
+**`ints = [1, 3], n = 3`**
+
+| Операция | Поток | Стек   |
+| -------- | ----- | ------ |
+| Push     | 1     | [1]    |
+| Push     | 2     | [1, 2] |
+| Pop      | —     | [1]    |
+| Push     | 3     | [1, 3] |
+
+Результат: `["Push", "Push", "Pop", "Push"]`
+
+---
+
+**`ints = [2, 5], n = 6`**
+
+| stream | int | Действие             |
+| ------ | --- | -------------------- |
+| 1      | 2   | Push, Pop (не нужен) |
+| 2      | 2   | Push ✓               |
+| 3      | 5   | Push, Pop (не нужен) |
+| 4      | 5   | Push, Pop (не нужен) |
+| 5      | 5   | Push ✓               |
+
+Результат: `["Push", "Pop", "Push", "Push", "Push", "Pop", "Pop", "Push"]`
+
+## Решение
+
+```typescript
+export const buildArray = function (ints: number[], n: number) {
+	const array = [] as ('Push' | 'Pop')[]
+
+	let stream = 1
+
+	for (const int of ints) {
+		while (stream < int) {
+			array.push('Push')
+			array.push('Pop')
+			stream++
+		}
+
+		array.push('Push')
+		stream++
+	}
+
+	return array
+}
+```
+
+### Идея
+
+Проходим по каждому нужному числу `int`. Пока текущий поток `stream` не дошёл до `int` — делаем `Push` + `Pop` (число не нужно, выбрасываем). Когда `stream === int` — делаем просто `Push` и число остаётся в стеке.
+
+Дается массив чисел `ints` и целое число `n`. У нас есть пустой стек и поток чисел от `1` до `n` включительно. Задача — вернуть список операций `"Push"` / `"Pop"`, которые соберут стек равный `ints`.
+
+- `Push` — берём следующее число из потока и кладём в стек
+- `Pop` — убираем верхний элемент стека (число нам не нужно)
+
+## Ограничения
+
+- `1 <= ints.length <= 100`
+- `1 <= n <= 100`
+- `1 <= ints[i] <= n`
+- `ints` строго возрастающий
+
+## Примеры
+
+**`ints = [1, 3], n = 3`**
+
+| Операция | Поток | Стек   |
+| -------- | ----- | ------ |
+| Push     | 1     | [1]    |
+| Push     | 2     | [1, 2] |
+| Pop      | —     | [1]    |
+| Push     | 3     | [1, 3] |
+
+Результат: `["Push", "Push", "Pop", "Push"]`
+
+---
+
+**`ints = [2, 5], n = 6`**
+
+| stream | int | Действие             |
+| ------ | --- | -------------------- |
+| 1      | 2   | Push, Pop (не нужен) |
+| 2      | 2   | Push ✓               |
+| 3      | 5   | Push, Pop (не нужен) |
+| 4      | 5   | Push, Pop (не нужен) |
+| 5      | 5   | Push ✓               |
+
+Результат: `["Push", "Pop", "Push", "Push", "Push", "Pop", "Pop", "Push"]`
+
+## Решение
+
+```typescript
+export const buildArray = function (ints: number[], n: number) {
+	const array = [] as ('Push' | 'Pop')[]
+
+	let stream = 1
+
+	for (const int of ints) {
+		while (stream < int) {
+			array.push('Push')
+			array.push('Pop')
+			stream++
+		}
+
+		array.push('Push')
+		stream++
+	}
+
+	return array
+}
+```
+
+### Идея
+
+Проходим по каждому нужному числу `int`. Пока текущий поток `stream` не дошёл до `int` — делаем `Push` + `Pop` (число не нужно, выбрасываем). Когда `stream === int` — делаем просто `Push` и число остаётся в стеке.

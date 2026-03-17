@@ -9,9 +9,14 @@
 - Docker
 - Kubernetes
 - NodeJS
-- Chrome Devtools
+- npm
+- yarn
+- pnpm
+- Chrome
 - Bun
 - React
+- Vue
+- SolidJS
 - NextJS
 - Tailwind CSS
 - CSS Modules
@@ -19,15 +24,20 @@
 - Tanstack Query
 - React Query
 - Redux
+- Mobx
 - NestJS
 - Elysia
 - Fastify
+- Express
+- Meteor
+- Hono
 - PostgreSQL
 - Redis
 - MongoDB
 - Prisma
 - Vitest
 - Playwright
+- Cypress
 - Vite
 - ESBuild
 - Webpack
@@ -84,23 +94,19 @@
 
 ### Subscriptions:
 
-- Youtube
-- Telegram
+- Claude
 - Raycast
 - NordVpn
 - Google Drive
-- Whispr Flow
 - Puzzle Movies
 
 ### Gadgets:
 
 - Macbook Pro 14
-- Macbook Neo
 - Iphone Pro
 - Airpods Pro
 - Airpods Max
 - Apple Watch
-- Magic Trackpad
 - Baseus Powerbank
 - Mac Studio
 - Ipad Pro
@@ -151,67 +157,8 @@
 - [Frontend Handbook](https://www.frontendinterviewhandbook.com/ru/introduction)
 - [NodeJS](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
 
-### Learns:
+### Competitive Coding:
 
-#### Mathematics (foundation)
-
-- Discrete Math
-- Boolean Algebra
-- Linear Algebra
-- Calculus
-- Geometry
-- Probability and Statistics
-- Combinatorics
-- Number Theory ← криптография, хэши, RSA
-- Graph Theory ← алгоритмы, базы данных, сети
-- Information Theory ← сжатие, энтропия, Shannon
-
-#### Computer Science
-
-- Algorithms and Data Structures
-- Computer Science (general)
-- Operating Systems
-- Network Essentials
-- Compilers and Interpreters ← твои under the hood проекты
-- Database Internals ← как работает Postgres изнутри
-- Distributed Systems ← CAP теорема, consensus, replication
-- Computer Architecture ← CPU, память, кэши, pipeline
-- Cryptography ← как работает TLS, hashing, encryption
-
-#### Software Engineering
-
-- Software Engineering
-- Web Development
-- System Design ← как проектировать большие системы
-- Design Patterns ← GOF паттерны
-- Clean Code / Refactoring ← Мартин Фаулер, Роберт Мартин
-- Browser Engine ← V8, Бандлер
-- Asynchronous programming
-- Event Driven Architecture
-
-#### Physics & Natural Science
-
-- Physics (mechanics, electromagnetism) ← понять железо
-- Electronics Basics ← как работает CPU на уровне схем
-
-#### Erudition
-
-- World History
-- Geography
-- Philosophy (logic, epistemology) ← как правильно думать
-- Economics (micro + macro) ← понять бизнес и продукт
-- Psychology ← понять людей, UX, мотивация
-- Rhetoric and Logic ← как аргументировать и писать
-- Biology (basics) ← понять как устроена жизнь
-
-### CP Platforms:
-
-- Leetcode
-- Codeforces
-- Hackerrank
-
-### Fonts:
-
-- Lab Mono
-- JetBrains Mono
-- Maple Mono
+- Leetcode Quest
+- Neetcode 250
+- Codeforces Randomizer

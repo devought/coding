@@ -25,4 +25,3 @@
 
 - Always use Google, Apple or Github Auth when it comes to authorization
 - Use one password everywhere but turn on 2FA wherever its possible
-- Do not share sensitive data with anyone, it applies to AI too
