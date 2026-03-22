@@ -31,5 +31,11 @@
 - [ ] UI Component Library (button, input, modal, tooltip итд)
 - [ ] CSS-in-JS runtime (like styled-components / emotion)
 - [ ] State Manager (like Zustand / Redux)
-- [ ] Reactive State (like MobX / Vue reactivity — Proxy based)
+- [ ] Reactive State (like MobX / Vue reactivity - Proxy based)
 - [ ] Signal (like SolidJS / Angular signals)
+
+### Computer Science
+
+- [ ] Algorithms and Data structures algorithms library
+- [ ] Rate limiter
+- [ ] In-memory database

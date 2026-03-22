@@ -4,11 +4,14 @@
 - JavaScript
 - HTML
 - CSS
+- SCSS
+- PostCSS
 - Git
 - Github
 - Docker
 - Kubernetes
 - NodeJS
+- PM2
 - npm
 - yarn
 - pnpm
@@ -29,10 +32,14 @@
 - Elysia
 - Fastify
 - Express
+- RxJS
+- Lodash
 - Meteor
 - Hono
 - PostgreSQL
 - Redis
+- Neo4j
+- ClickHouse
 - MongoDB
 - Prisma
 - Vitest
@@ -41,14 +48,22 @@
 - Vite
 - ESBuild
 - Webpack
+- Gulp
 - Babel
+- JQuery
 - Turbopack
 - SWC
 - GraphQL
-- WebSocket
+- Socket.Io
 - Github Actions
 - Linux
 - Nginx
+- Apache
+- Convex
+- Clerk
+- Supabase
+- Workbox
+- Flow
 - Amazon Web Services
 
 ### Languages:
@@ -70,7 +85,7 @@
 - Slack
 - Ghostty
 - Discord
-- Whispr Flow
+- Wispr Flow
 
 ### Phone Applications:
 
@@ -80,7 +95,6 @@
 - Slack
 - Yandex Go
 - NordVpn
-- Yandex Eda
 - Freedom
 - Kaspi
 - Halyk
@@ -88,7 +102,7 @@
 - Paypal
 - Onay
 - LinkedIn
-- Whispr Flow
+- Wispr Flow
 - Google 2FA
 - IZI
 
@@ -104,8 +118,6 @@
 
 - Macbook Pro 14
 - Iphone Pro
-- Airpods Pro
-- Airpods Max
 - Apple Watch
 - Baseus Powerbank
 - Mac Studio
@@ -152,9 +164,3 @@
 
 - [CP Handbook](https://cses.fi/book/book.pdf)
 - [CP Algorithms](https://cp-algorithms.com/index.html)
-
-### Competitive Coding:
-
-- Leetcode Quest
-- Neetcode 250
-- Codeforces Randomizer
