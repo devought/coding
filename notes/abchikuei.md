@@ -16,7 +16,6 @@
 - Slack
 - Ghostty
 - Discord
-- Wispr Flow
 
 ### Phone Applications:
 
@@ -34,15 +33,12 @@
 - Paypal
 - Onay
 - LinkedIn
-- Wispr Flow
 - Google 2FA
 - IZI
 
 ### Subscriptions:
 
 - Claude
-- Raycast
-- NordVpn
 - Google Drive
 - Puzzle Movies
 
@@ -160,6 +156,12 @@
 17. refine
 18. magicui
 19. ant design
+20. d3.js
+21. recharts
+22. chart.js
+23. threejs
+24. anime.js
+25. framer motion
 
 #### Backend Frameworks
 
@@ -256,6 +258,15 @@
 8. gcp
 9. dokploy
 
+#### Other
+
+1. react native
+2. ionic
+3. electron
+4. tauri
+5. nw.js
+6. flow (meta)
+
 #### Utilities
 
 1. axios
@@ -286,3 +297,5 @@
 26. cookie-parser
 27. express-session
 28. cron
+29. swagger
+30. openapi

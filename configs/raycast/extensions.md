@@ -15,8 +15,8 @@
 13. Format JSON
 14. ScreenOCR
 15. Installed Extensions
-16. GIF Search
-17. GrammariX
+16. Google Translate
+17. GIF Search
 18. Word Count
 19. Ruler
 20. Mole
