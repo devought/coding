@@ -6,14 +6,14 @@ cursor-style = bar
 cursor-style-blink = true
 cursor-color = #F8F8F2
 
-theme = Monokai Classic
+theme = tokyonight_moon
 
 window-padding-x = 16
 window-padding-y = 12
 window-decoration = true
 macos-titlebar-style = tabs
-background-opacity = 0.9
-background-blur-radius = 20
+# background-opacity = 0.9
+# background-blur-radius = 20
 adjust-cell-height = 10
 
 shell-integration = zsh

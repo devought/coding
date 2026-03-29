@@ -92,6 +92,7 @@
 - [CP Algorithms](https://cp-algorithms.com/index.html)
 - [Web Development](https://my-js.org/docs/guide/intro-guide)
 - [Learn JavaScript](https://learn.javascript.ru/)
+- [Learn Git](https://git-scm.com/book/en/v2)
 
 ### Tools
 
