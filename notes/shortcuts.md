@@ -121,11 +121,12 @@
 3. `Cmd + Shift + H` - Search and replace across files
 4. `Cmd + Shift + D` - Debug sidebar
 5. `Cmd + Shift + X` - Extensions
-6. `Control + Shift + G` - Git / Source Control
-7. `Cmd + Shift + M` - Problems panel
-8. `Cmd + Shift + U` - Output panel
-9. `Cmd + Shift + Y` - Debug console
-10. `Cmd + Shift + .` - Small navigation panel
+6. `Cmd + Shift + R` - Search snippets by prefix or description
+7. `Control + Shift + G` - Git / Source Control
+8. `Cmd + Shift + M` - Problems panel
+9. `Cmd + Shift + U` - Output panel
+10. `Cmd + Shift + Y` - Debug console
+11. `Cmd + Shift + .` - Small navigation panel
 
 #### Terminal:
 

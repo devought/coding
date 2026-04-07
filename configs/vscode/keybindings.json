@@ -15,6 +15,11 @@
 		"args": "Format"
 	},
 	{
+		"key": "shift+cmd+z",
+		"command": "workbench.action.tasks.runTask",
+		"args": "Revert"
+	},
+	{
 		"key": "shift+cmd+j",
 		"command": "workbench.files.action.collapseExplorerFolders"
 	},
