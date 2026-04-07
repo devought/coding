@@ -365,3 +365,13 @@
 9. `gg` - Go to top
 10. `G` - Go to bottom
 11. `zz` - Center screen
+
+### Obsidian
+
+1. `Cmd + ,` - Open settings
+2. `Cmd + P` - Command palette
+3. `Cmd + N` - Create new note
+4. `Cmd + E` - Toggle Read/Write mode
+5. `Cmd + O` - Go to file
+6. `Cmd + W` - Close the current tab
+7.

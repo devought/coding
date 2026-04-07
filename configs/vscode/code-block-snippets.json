@@ -26,7 +26,7 @@
 	"Create Frequency Array": {
 		"scope": "typescript,javascript,typescriptreact,javascriptreact",
 		"prefix": "fel",
-		"body": ["Array.from({length: 26}, () => $1)"],
+		"body": ["Array.from({length: $1}, () => $2)"],
 		"description": "Creates frequency array for either lowercase or uppercase letters"
 	},
 	"Swapper": {

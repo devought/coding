@@ -6,10 +6,19 @@
 
 ### Programming Languages:
 
-1. JavaScript `VSCode`
-2. TypeScript `VSCode`
-3. Cpp `Neovim`
-4. Python `Neovim`
+1. JavaScript
+2. TypeScript
+3. Python
+4. C++
+
+### Socials:
+
+1. LinkedIn
+2. Headhunter
+3. Github
+4. Leetcode
+5. Codeforces
+6. Reddit
 
 ### Laptop Applications:
 
@@ -144,6 +153,9 @@
 7. AI Studio
 8. Gmail
 9. Colab
+10. Apps Script
+11. Sites
+12. Vids
 
 #### Other:
 
@@ -156,249 +168,36 @@
 7. Framer
 8. Canva
 9. Click Up
-10. Zoom
-11. Teams
-12. Discord
-13. Notion
-14. Monday
-15. Github
-16. Gitlab
-17. Bitbucket
-18. Lucidchart
-19. DrawIO
-20. AWS Console
-21. Google Cloud Console
-22. Azure Portal
-23. Vercel
-24. Netlify
-25. Heroku
-26. Railway
-27. Firebase
-28. Supabase
-29. Convex
-30. Appwrite
-31. Pocketbase
-32. phpMyAdmin
-33. Render
-34. Grafana
-35. Kibana
-36. Digital Ocean
-37. Sentry
-38. Prisma Studio
-39. OpenAI API Dashboard
-40. Anthropic API Dashboard
-
-### Tools
-
-#### Runtimes
-
-1. node
-2. bun
-
-#### Package Managers
-
-1. npm
-2. yarn
-3. pnpm
-
-#### Bundlers & Build Tools
-
-1. vite
-2. webpack
-3. rollup
-4. rolldown
-5. rspack
-6. turbopack
-7. esbuild
-8. parcel
-9. gulp
-10. babel
-11. swc
-
-#### TypeScript
-
-1. tsc
-2. ts-node
-3. tsx
-
-#### Testing
-
-1. vitest
-2. jest
-3. mocha
-4. playwright
-5. cypress
-6. testing library
-
-#### Frontend Frameworks & State
-
-1. html
-2. css
-3. react
-4. nextjs
-5. zustand
-6. redux
-7. mobx
-8. react query
-9. tanstack query
-10. effector
-11. recoil
-12. tailwindcss
-13. postcss
-14. immer
-15. scss
-16. bootstrap
-17. chakra.ui
-18. material.ui
-19. shadcn.io
-20. refine
-21. magic.ui
-22. ant design
-23. radix.ui
-24. storybook
-25. d3.js
-26. recharts
-27. chart.js
-28. threejs
-29. anime.js
-30. gsap
-31. framer motion
-
-#### Backend Frameworks
-
-1. express
-2. fastify
-3. nestjs
-4. hono
-5. elysia
-6. koa
-
-#### API & Communication
-
-1. rest api
-2. graphql
-3. apollo
-4. trpc
-5. grpc
-6. protobuf
-7. socket.io
-
-#### ORM & Database Clients
-
-1. prisma
-2. drizzle
-3. typeorm
-4. mongoose
-5. sequelize
-6. knex
-
-#### Databases & Cache
-
-1. postgresql
-2. mysql
-3. mongodb
-4. clickhouse
-5. neo4j
-6. redis
-7. elasticsearch
-8. surrealql
-
-#### Auth
-
-1. nextauth
-2. passportjs
-3. clerk
-
-#### Validation
-
-1. zod
-2. valibot
-3. yup
-
-#### Job Queues
-
-1. bullmq
-2. kafka
-3. rabbitmq
-
-#### Logging & Monitoring
-
-1. winston
-2. sentry
-3. prometheus
-4. grafana
-5. kibana
-6. logstash
-
-#### DevOps & Infrastructure
-
-1. docker
-2. kubernetes
-3. helm
-4. nginx
-5. apache
-6. pm2
-7. terraform
-8. ansible
-9. github
-10. gitlab
-11. bitbucket
-12. jenkins
-13. codeberg
-14. circleci
-15. husky
-
-#### Cloud & Hosting
-
-1. aws
-2. cloudflare
-3. vercel
-4. railway
-5. netlify
-6. supabase
-7. convex
-8. azure
-9. gcp
-10. dokploy
-
-#### Other
-
-1. react native
-2. ionic
-3. electron
-4. tauri
-5. nw.js
-6. flow (meta)
-
-#### Utilities
-
-1. axios
-2. lodash
-3. date-fns
-4. dayjs
-5. async
-6. rxjs
-7. jsonwebtoken
-8. bcrypt
-9. multer
-10. uuid
-11. aws-sdk
-12. eslint
-13. nodemon
-14. dotenv
-15. cross-env
-16. nodemailer
-17. resend
-18. joi
-19. morgan
-20. moment
-21. classnames
-22. ioredis
-23. connect-redis
-24. express-rate-limit
-25. body-parser
-26. cookie-parser
-27. express-session
-28. cron
-29. swagger
-30. openapi
+10. MS Power BI
+11. Tableau
+12. Zoom
+13. Teams
+14. Discord
+15. Notion
+16. Monday
+17. Github
+18. Gitlab
+19. Bitbucket
+20. Lucidchart
+21. DrawIO
+22. AWS Console
+23. Google Cloud Console
+24. Azure Portal
+25. Vercel
+26. Netlify
+27. Heroku
+28. Railway
+29. Firebase
+30. Supabase
+31. Convex
+32. Appwrite
+33. Pocketbase
+34. phpMyAdmin
+35. Render
+36. Grafana
+37. Kibana
+38. Digital Ocean
+39. Sentry
+40. Prisma Studio
+41. OpenAI API Dashboard
+42. Anthropic API Dashboard
