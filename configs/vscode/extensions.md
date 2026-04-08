@@ -24,3 +24,4 @@
 - Live Share
 - JavaScript (ES6) code snippets
 - ES7+ React/Redux/React-Native snippets
+- SQLite Viewer

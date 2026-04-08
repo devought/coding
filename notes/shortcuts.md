@@ -208,6 +208,7 @@
 1. `Cmd + Shift + L` - Run task `Build & Copy` (esbuild + pbcopy)
 2. `Cmd + Shift + K` - Run task `Test` (ts-node)
 3. `Cmd + Shift + '` - Run task `Format` (prettier)
+4. `Cmd + Shift + Z` - Run task `Revert` (git)
 
 ### YouTube:
 
