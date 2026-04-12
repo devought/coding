@@ -8,8 +8,6 @@
 
 1. JavaScript
 2. TypeScript
-3. Python
-4. C++
 
 ### Socials:
 
@@ -106,7 +104,6 @@
 10. Formula 1
 11. Leetcode
 12. Codeforces
-13. CSAcademy
 
 ### Resources:
 

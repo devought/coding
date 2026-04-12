@@ -195,6 +195,15 @@
 5. nw.js
 6. flow (meta)
 
+#### AI
+
+1. openai
+2. anthropic
+3. deepseek
+4. google
+5. meta
+6. mistral
+
 #### Utilities
 
 1. axios
