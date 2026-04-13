@@ -97,6 +97,7 @@
 6. `Cmd + 0` - reset zoom
 7. `Cmd + Shift + C` - open inspector on element
 8. `Cmd + Option + I` - open DevTools
+9. `Shift + Option + A` - toggle DarkReader
 
 #### Bookmarks:
 

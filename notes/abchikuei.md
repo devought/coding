@@ -136,6 +136,9 @@
 17. Teacoder
 18. Anton Putra
 19. Red Group
+20. Bog
+21. Kuplinov Play
+22. Sambucha
 
 ### Communcation and Development Tools:
 
