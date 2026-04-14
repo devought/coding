@@ -46,6 +46,7 @@ export { Stack } from "./data-structures/stack";
 export { Queue } from "./data-structures/queue";
 export { Deque } from "./data-structures/deque";
 export { Heap } from "./data-structures/heap";
+export { Trie } from "./data-structures/trie";
 export { UnionFind } from "./data-structures/union-find";
 export { LRUCache } from "./data-structures/lru-cache";
 
