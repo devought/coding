@@ -6,13 +6,6 @@ Personal competitive programming workspace with TypeScript setup and development
 
 ```
 coding/
-├── configs/          # Dev tool configurations
-│   ├── ghostty/      # Terminal settings
-│   ├── macos/        # macOS keybindings
-│   ├── neovim/       # Neovim setup & shortcuts
-│   ├── raycast/      # Raycast quicklinks
-│   └── vscode/       # VSCode settings
-├── notes/            # Learning notes & problem breakdowns
 ├── src/              # Solutions
 │   ├── lib/          # Shared utilities & helpers
 │   ├── scripts/      # Automation scripts
